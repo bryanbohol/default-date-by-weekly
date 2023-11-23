@@ -1,18 +1,18 @@
 # default-date-by-weekly
 
-JavaScipt function to generate Date by Weekly according from your syntax.
+JavaScipt function that generates Date :date: by Weekly as per your syntax parameter.
 
 
-## Syntax Reference
+## Syntax Parameters
 
-| Syntax             | Description                            |
+:pushpin: Please note that the syntax is case-sensitive and no space in between. :+1:
+
+| Syntax            | Description                            |
 | ----------------- | -------------------------------------- |
-| 0w,1 | Monday of current week |
-| 0w,7 | Sunday of current week |
 | -{n}w,1 | Monday of {n} last week |
 | -{n}w,7 | Sunday of {n} last week |	
 | -1w,1 | Monday of last week |
-| -1w,7 | Sunday of last week 
+| -1w,7 | Sunday of last week |
 | 0w,1 | Monday of current week |
 | 0w,7 | Sunday of current week |
 | +1w,1 | Monday of next week |
@@ -20,7 +20,12 @@ JavaScipt function to generate Date by Weekly according from your syntax.
 | +{n}w,1 | Monday of {n} next week |
 | +{n}w,7 | Sunday of {n} next week |
 
-
+## Variables
+| Variable            | Description                            |
+| ----------------- | -------------------------------------- |
+| 1 | Monday |
+| 7 | Sunday |
+| -, + | Directions |
 
 ## Usage/Examples
 

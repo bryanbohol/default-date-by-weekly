@@ -4,7 +4,7 @@
  * Git   : https://github.com/bryanbohol
  */
 
-function getDefaultDateByWeekly(weeklySyntax, date){
+function getDefaultDateByWeekly(weeklySyntax, date){s
     var numberOfDefaultDays = 0;
     
     if(/\d[w],\d$/.test(weeklySyntax)){
