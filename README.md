@@ -1,6 +1,6 @@
 # default-date-by-weekly
 
-JavaScipt function that generates Date :date: by Weekly as per your syntax parameter.
+JavaScript function that generates Date :date: by Weekly as per your syntax parameter.
 
 
 ## Syntax Parameters
